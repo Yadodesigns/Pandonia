@@ -1,0 +1,141 @@
+.container-2 {
+  width: 69.5%;
+  overflow: hidden;
+  padding-top: 10rem;
+}
+
+
+.container-2 ul {
+  list-style: none;
+}
+
+.container-2 .banner {
+  height: 30vh;
+  width: 3550px;
+  margin-bottom: 5rem;
+}
+.container-2 .box img{
+  width: 106% !important;
+}
+.container-2 .box {
+  display: inline-block;
+  width: 20vw;
+  height: 10vh;
+}
+
+/*keyframe animations*/
+.container-2 .box:first-child {
+  -webkit-animation: bannermove 30s linear infinite;
+          animation: bannermove 30s linear infinite;
+}
+
+@-webkit-keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+    transform: translateX(0);
+  }
+  100% {
+    margin-left: -900px;
+  }
+}
+
+@keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+    transform: translateX(0);
+  }
+  100% {
+    margin-left: -900px;
+  }
+}
+
+
+
+
+@media screen and (min-width: 2100px){
+  .container-2 .banner{
+    height: 32vh;
+  }
+  
+}
+@media screen and (min-width: 3000px){
+  .container-2 .banner{
+    height: 47vh;
+  }
+  
+}
+@media screen and (max-width: 600px){
+.container-2 .box img{
+  height: 40vh;
+  width:110% !important;
+}
+.container-2 .box{
+  width: 55vw;
+}
+.container-2 .banner{
+height: 20vh;
+}
+.container-2{
+  width: 100%;
+}
+@-webkit-keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+    transform: translateX(0);
+  }
+  100% {
+    margin-left: -1000px;
+  }
+}
+
+@keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+    transform: translateX(0);
+  }
+  100% {
+    margin-left: -1000px;
+  }
+}
+  
+}
+@media screen and (max-width: 800px){
+  .container-2 .box{
+height: 40vh;
+width: 50vw;
+  }
+  #team{
+    padding: 0.5rem;
+    padding-top: 0%;
+    padding-bottom: 7rem;
+  }
+  .playanywhere_main_area,.playanywhere__main_area{
+    padding: 0%;
+  }
+  .container-2 img{
+height: 40vh;
+  }
+  @-webkit-keyframes "bannermove" {
+    0% {
+      margin-left: 0px;
+      transform: translateX(0);
+    }
+    100% {
+      margin-left: -1000px;
+    }
+  }
+  
+  @keyframes "bannermove" {
+    0% {
+      margin-left: 0px;
+      transform: translateX(0);
+    }
+    100% {
+      margin-left: -1000px;
+    }
+  }
+  .container-2 .box:first-child {
+    -webkit-animation: bannermove 15s linear infinite;
+            animation: bannermove 15s linear infinite;
+  }
+}

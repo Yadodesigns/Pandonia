@@ -1,0 +1,390 @@
+@media screen and (max-width: 1199.98px){
+  #nav-t{
+    display: none;
+  }
+  #nav{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .navItem{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1199.98px) {
+  .container,
+  .container-fluid {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.4;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  h3 {
+    font-size: 42px;
+  }
+
+  h4 {
+    font-size: 36px;
+  }
+
+  h5 {
+    font-size: 30px;
+  }
+
+  h6 {
+    font-size: 20px;
+  }
+
+  .single_roadmap_items {
+    margin-bottom: 86px;
+  }
+
+  .button-group {
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+
+  .hero-btn {
+    width: 146px;
+    height: 50px;
+  }
+
+  .token_comics_list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+  }
+
+  .roadmaps_content_area::after {
+    top: -2.5%
+  }
+
+  .token_breakdown .stat_list .stat_item {
+    font-size: 18px;
+  }
+
+  .Pandasia_artist .maxi_txt {
+    font-size: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  
+  .Pandasia_artist .artist_img {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .Pandasia-slider .slide,
+  .team,
+  .token_comics,
+  .playanywhere__main_area,
+  .Pandasia-gallery .slide {
+    padding: 110px 0;
+  }
+
+  .faq,
+  .token_breakdown,
+  .Pandasia_artist {
+    padding-bottom: 110px;
+  }
+
+  .join-the-battle {
+    padding-top: 60px;
+  }
+
+  .join-the-battle .nav__bar .nav__link__list {
+    margin-bottom: 300px;
+  }
+
+  .Pandasia-slider h2 {
+    font-size: 48px;
+  }
+
+  .faq .accordion-item .accordion-button {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .faq h2 {
+    margin-bottom: 16px;
+  }
+
+  .team .card-box .designation {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  h4 {
+    font-size: 25px;
+  }
+
+  h5 {
+    font-size: 22px;
+  }
+
+  h6 {
+    font-size: 16px;
+  }
+
+  .hero-btn {
+    width: 110px;
+    padding: 8px;
+  }
+  
+  .nav__bar .nav__item:last-of-type svg {
+    padding: 5px;
+  }
+
+  .button-group {
+    gap: 16px;
+  }
+
+  .Pandasia_artist .maxi_txt {
+    font-size: 18px;
+  }
+
+  .token_comics h2 {
+    margin-bottom: 100px;
+  }
+
+  .faq .accordion-item .accordion-button {
+    font-size: 18px;
+  }
+
+  .faq .accordion-button::after {
+    width: 2.75rem;
+    height: 2.75rem;
+    background-size: contain;
+  }
+
+  .copyright p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .token_breakdown .stat_list .stat_item {
+    gap: 12px;
+    font-size: 16px;
+    grid-template-columns: 100px 32px 1fr;
+  }
+
+  .stat_list .stat_item .rect {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .container-fluid {
+    padding-left: 42px;
+    padding-right: 42px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  .nav__bar .nav__link__list {
+    gap: 16px;
+  }
+
+  .nav__bar .nav__link svg {
+    width: 56px;
+  }
+  .roadmap_txt p{
+    padding-right: 0;
+  }
+  .hero-btn {
+    width: 80px;
+  }
+
+  .owl-nav button.owl-prev {
+    transform: translateX(-125%);
+  }
+  
+  .owl-nav button.owl-next {
+    transform: translateX(125%);
+  }
+
+  .owl-nav button svg {
+    width: 40px;
+    height: auto;
+  }
+
+  .left_playwhere_text {
+    flex: 0 0 100%;
+    margin-top: 20px;
+    order: 1;
+  }
+  
+  .right_playwhere_imgages {
+    flex: 0 0 100%;
+  }
+
+  .break_down_img {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+  }
+
+  .token_breakdown .token_breakdown_txt {
+    padding-bottom: 60px;
+  }
+
+  .Pandasia_artist .artist_img {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .team h2 {
+    margin-bottom: 60px;
+  }
+
+  .roadmap_images img {
+    width: 100%;
+  }
+
+  .single_roadmap_items::after {
+    height: 270px;
+  }
+
+  .single_roadmap_items:hover::after {
+    height: 270px;
+    width: 80%;
+  }
+
+  .token_comics img,
+  .token_breakdown img {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .Pandasia_artist h2,
+  .token_comics h2 {
+    margin-bottom: 40px;
+  }
+
+  .single_roadmap_items {
+    flex-direction: column;
+  }
+
+  .left_roadmap {
+    flex: 0 0 100%;
+    margin-bottom: 32px;
+  }
+
+  .right_roadmap {
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  /* .single_roadmap_items p {
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+  } */
+}
+@media only screen and (max-width: 950px){
+  #background-b{
+    background-size: cover;
+    background-position: center;
+  }
+  #timer div{
+    min-width: 5rem;
+  }
+  #timer{
+    font-size: 200%;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .container-fluid {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+.header-main,#navbar{
+  padding: 0% !important;
+  margin-left: -0.9rem;
+}
+
+  .hero-btn {
+    width: 126px;
+  }
+
+  .nav__bar .nav__link svg {
+    width: 42px;
+  }
+
+  .Pandasia-slider .owl-nav button {
+    top: 27%;
+  }
+  #left_margi{
+    margin-left: -2rem !important; 
+  }
+  .owl-nav button svg {
+    width: 25px;
+    height: auto;
+  }
+  .hero {
+    background: url(https://cdn.discordapp.com/attachments/984217996459389008/989374356188721192/ezgif.com-gif-maker_3.gif) no-repeat scroll 0 0 / cover;
+    min-height: 100vh;
+    background-position: center;
+    padding-bottom: 0;
+  }
+  #nav-t{
+    display: none;
+  }
+  .header-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 50px 0 0 0;
+    z-index: 1;
+}
+#background-b{
+  background: none;
+}
+.nav__bar .nav__link__list {
+  gap: 0;
+}
+a.arrow {
+  display: none;
+}
+}
